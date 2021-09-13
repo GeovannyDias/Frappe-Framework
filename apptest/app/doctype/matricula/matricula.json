@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "autoname": "field:id_representante",
+ "creation": "2021-09-13 11:22:45.355806",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id_representante",
+  "total_hijos",
+  "precio_unitario",
+  "a_pagar",
+  "descuento",
+  "total_a_pagar"
+ ],
+ "fields": [
+  {
+   "fieldname": "total_hijos",
+   "fieldtype": "Read Only",
+   "label": "Hijos"
+  },
+  {
+   "fieldname": "precio_unitario",
+   "fieldtype": "Read Only",
+   "label": "Precio Unitario"
+  },
+  {
+   "fieldname": "a_pagar",
+   "fieldtype": "Read Only",
+   "label": "A Pagar"
+  },
+  {
+   "fieldname": "descuento",
+   "fieldtype": "Read Only",
+   "label": "Porcentaje de Descuento (%)"
+  },
+  {
+   "fieldname": "total_a_pagar",
+   "fieldtype": "Read Only",
+   "label": "Total a Pagar"
+  },
+  {
+   "fieldname": "id_representante",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Representate",
+   "reqd": 1,
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-13 12:44:11.665901",
+ "modified_by": "Administrator",
+ "module": "app",
+ "name": "matricula",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

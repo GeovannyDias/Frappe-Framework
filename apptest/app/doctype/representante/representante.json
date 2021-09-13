@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "autoname": "field:cedula",
+ "creation": "2021-09-13 09:33:11.466379",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "cedula",
+  "nombres",
+  "apellidos",
+  "estado_civil",
+  "celular",
+  "convencional",
+  "email",
+  "column_break_6",
+  "lugar_trabajo",
+  "fecha_nacimiento",
+  "edad",
+  "section_break_12",
+  "estudiante"
+ ],
+ "fields": [
+  {
+   "fieldname": "cedula",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "C\u00e9dula",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "nombres",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nombres",
+   "reqd": 1
+  },
+  {
+   "fieldname": "apellidos",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Apellidos",
+   "reqd": 1
+  },
+  {
+   "fieldname": "estado_civil",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Estado Civil",
+   "options": "estado_civil",
+   "reqd": 1
+  },
+  {
+   "fieldname": "celular",
+   "fieldtype": "Data",
+   "label": "Tel\u00e9fono Celular",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "convencional",
+   "fieldtype": "Data",
+   "label": "Tel\u00e9fono Convencional",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lugar_trabajo",
+   "fieldtype": "Small Text",
+   "label": "Lugar de Trabajo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fecha_nacimiento",
+   "fieldtype": "Date",
+   "label": "Fecha de Nacimiento",
+   "reqd": 1
+  },
+  {
+   "fieldname": "edad",
+   "fieldtype": "Read Only",
+   "label": "Edad"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "estudiante",
+   "fieldtype": "Table",
+   "label": "Registro de Hijos",
+   "options": "estudiante",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-13 10:04:14.292617",
+ "modified_by": "Administrator",
+ "module": "app",
+ "name": "representante",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

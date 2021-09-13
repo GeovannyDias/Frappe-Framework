@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "creation": "2021-09-13 09:28:10.112987",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fotograf\u00eda",
+  "cedula",
+  "apellidos",
+  "nombres",
+  "fecha_nacimiento",
+  "genero",
+  "column_break_4",
+  "direccion",
+  "nombre_grado",
+  "section_break_9",
+  "ubicacion"
+ ],
+ "fields": [
+  {
+   "fieldname": "fotograf\u00eda",
+   "fieldtype": "Attach Image",
+   "label": "Fotograf\u00eda",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cedula",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "C\u00e9dula",
+   "reqd": 1
+  },
+  {
+   "fieldname": "apellidos",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Apellidos",
+   "reqd": 1
+  },
+  {
+   "fieldname": "nombres",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nombres",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fecha_nacimiento",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Fecha de Nacimiento",
+   "reqd": 1
+  },
+  {
+   "fieldname": "genero",
+   "fieldtype": "Select",
+   "label": "Genero",
+   "options": "MASCULINO\nFEMENINO",
+   "reqd": 1
+  },
+  {
+   "fieldname": "direccion",
+   "fieldtype": "Small Text",
+   "label": "Direcci\u00f3n Domiciliaria",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ubicacion",
+   "fieldtype": "Geolocation",
+   "label": "Ubicaci\u00f3n Geogr\u00e1fica",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "nombre_grado",
+   "fieldtype": "Link",
+   "label": "Grado",
+   "options": "grados",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-09-13 13:13:09.881672",
+ "modified_by": "Administrator",
+ "module": "app",
+ "name": "estudiante",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
